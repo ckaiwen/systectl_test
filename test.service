@@ -3,6 +3,6 @@ Description=Test APP
 After=docker.service
 Requires=docker.service
 [Service]
-ExecStart="/usr/local/bin/test.sh"
+ExecStart=/usr/local/bin/test.sh
 [Install]
 WantedBy=multi-user.target
